@@ -1,0 +1,44 @@
+/*Reset*/
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+
+}
+ul{
+  
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+/*End*/
+
+#info-bar {
+    border: 1px solid black;
+    border-radius: 1px;
+    color: #999
+}
+
+.info-bar-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+
+}
+
+.info-bar-items {
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.info-bar-items li{
+   text-align: center;
+    padding: 5px 5px;
+}
+
+.info-bar-items ul{
+    display: flex;
+    justify-content: space-between;
+}

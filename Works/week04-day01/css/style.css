@@ -5,20 +5,13 @@
 }
 
 #eduguard{
-    margin: 100px none;
-    padding: 100px;
     background: rgba(235,235,242,0.7);
-   width: 1300px;
-   height: 450px;
+   width: 100vw;
+   height: 100vh;
 }
 
-.eduguard-container{
-    margin: none;
-    
-  
-}
+
 .eduguard-header{ 
-    display: block;
     text-align: center;
     margin-bottom: 50px;
     margin-top: 0 auto;
@@ -26,24 +19,21 @@
 .eduguard-content-item{
     border: 1px solid #ebebf2;
     background-color: #fff;
-    display: block;
-    padding: 20px;
+    padding: 50px;
     width: 400px;
-    height: 200px;
     border-radius: 10px;
     
 }
 .eduguard-content-item i{
-    flex-direction: column;
     margin-bottom: 30px;
 }
 .eduguard-content-row{
+    max-width: 1250px;
     display: flex;
+    margin: 0 auto;
     justify-content:space-between;
 }
-.eduguard-content-item p{
-    display: block;
-}
+
 .eduguard-content-item h1{
     color: #202029;
     margin-bottom: 10px;
