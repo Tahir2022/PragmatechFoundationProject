@@ -4,7 +4,7 @@
 - display:grid xüsusiyyətinin alt xüsusiyyətləri hansılardır və qısaca nə işə yaradığını yazın
 -  display: grid lə container içərisində asanlıqla sətir və sütun yarada bilərik. Bundan başqa grid-template-columns, grid-template-rows, grid-gap kimi bir sıra alt funksiyalar mövcuddur 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## UI- Lesson11 (Sual-Cavab)
