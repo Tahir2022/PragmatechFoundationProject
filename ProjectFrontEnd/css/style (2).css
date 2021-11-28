@@ -1,64 +1,243 @@
 *{
     margin: 0; 
     padding: 0;
+    box-sizing: border-box;
 }
 
-/*Upper-Top Head Section Start*/
-.navbar-container-upper {
-    width: 1200px;
-    height: 40px;
-    display: flex;
-    background-color: rgb(20, 71, 111);
+/* Header Start */
+body{
+    width: 1140px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    width: 1140px;
+    background-color:#14476f;
     color: white;
-    border-bottom: white;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
 }
 
-.navbar-container-upper-left{
-    padding: 10px 40px;
-    display: flex;
-}
-
-ul{
-    margin-left: 240px;
-    padding: 10px 40px;
-    display: flex;
-}
-
-ul li {
-   list-style-type: none;
-    justify-content: flex-end;
-    letter-spacing: 0.9px;
-}
-
-h3{
-    font-weight: 100;
-}
-/*Upper-Top Head Section End */
-
-/*Upper-Middle Head Section Start*/
-
-.navbar-middle{
-    display: flex;
-    align-content:flex-start
-    
-}
-
-.navbar-container-middle{
-    width: 1200px;
-    height: 120px;
-    border: 1px solid red;
-    background-color: rgb(20, 71, 111);
-    display: flex;
-    
-
-}
-
-button {
-    border: 1px solid yellow;   
-}
-
-.navbar-container-middle-right{
-    border: 1px solid black;
+.header-section{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    height: 40px;
+    border-bottom: 1px solid #2c5a7e;
+}
+
+.header-ul{
+    display: flex;
+    list-style-type:none;   
+}
+
+.header-ul li{
+    margin: 0px 5px;
+}
+
+.befored::before {
+    content: "";
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16px;
+    width: 16px;
+    margin: 0 2px;
+}
+
+.percent::before {
+    background-image: url('/image/perc.png');
+}
+
+.percent {
+    margin-left: 4px;
+}
+
+.lang:hover .lang-drop {
+    display: block;
+}
+
+.drop-menu {
+    border: 1px solid red;
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 10px;
+    min-width: 100px;
+    height: auto;
+    z-index: 999;
+    position: absolute;
+}
+
+.lang-drop, .currency {
+    display: none;
+}
+
+.lang-en::before {
+    /* background-image: url('/image/perc.png'); */
+    background-color: red;
+}
+
+.lang-ab::before {
+    /* background-image: url('/image/perc.png'); */
+    background-color: navy;
+}
+
+.dollar:hover .currency{
+    display: block;
+}
+
+.middle-section{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+.middle-section-middle{
+    background-color: whitesmoke;
+    height: 45px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.search-list {
+    display: inline-block;
+    line-height: 45px;
+    border: none;
+    background-color: whitesmoke;
+    color: #ccc;    
+    height: 45px;
+}
+
+input.search {
+    border: none;
+    background-color: whitesmoke;  
+    width: 350px;
+    height: 45px;
+}
+
+.search-button{
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ee0;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    padding:30px 40px;
+    padding-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-ul{
+    display: flex;
+    padding-right:250px;
+}
+
+.footer-ul li{
+    list-style-type:none;
+    margin: 0 8px;
+    font-size:15px;
+
+}
+
+.footer-ul li:hover {
+    background-color: navy;
+    border-radius: 8px;
+}
+
+.footer-section-left button {
+    border: 1px solid yellow;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    margin-top:-14px;
+    color: #ffffff;
+    background-color: #da3332;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Header End */
+
+/* Main Aside Start */
+
+.column-left{
+    float: left; /* sola yapisdirmaq ucun */ 
+    width: 20%;  /* enniliyi 100den 20ye saliriq */
+}
+
+.carousel-product-list{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;  /* enndiliyi 20den 100e qaldiririq */
+    padding: 5px;
+}
+
+.product-item{
+    border: 1px solid black;
+    display: flex;
+    padding: 20px 10px;
+}
+
+.pic-item{
+    border: 2px dotted rgb(83, 54, 54);
+}
+
+.box-head{
+    
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.box-head h3{
+    padding: 10px;
+}
+
+.info-item{
+    padding: 8px;
+}
+
+
+.personal-card{
+    text-align: center;
+}
+
+.personal-card-img{
+    width: 50%;
+    border-radius: 50%;
+    border: 6px solid #e5e5e5;
+}
+
+/* article float left ya float right verilir */
+
+.cat-btn:hover .cat-menu{
+    display: block;
+}
+
+.cat-menu {
+    display: none;
+    background-color:rgb(255, 255, 255);
+    color: black;
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 0 0 10px 10px;
+    /* border-bottom: black; */
+    /* z-index: 999; */
+    position: absolute;
+}
+.cat-menu li {
+    list-style: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    
 }

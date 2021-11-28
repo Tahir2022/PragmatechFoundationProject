@@ -5,59 +5,182 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Mart</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style (2).css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <!--Upper-Top Head Section Start-->
-    <section id="navbar">
-        <div class="navbar-container-upper">
-            <div class="navbar-container-upper-left">
-                <i class="fas fa-percentage"></i>
-                <h3>Wants to explore Upcoming Deals on Weekends?</h3>
-            </div>
-            <ul>
-                <li>
-                    <i></i>
+    <!--Header Start-->
+    <header>
+    <section class="header-section">
+        <div class="header-section-left">
+            <span class="percent befored">Wants to explore Upcoming Deals on Weekends?</span>
+        </div>
+        <div class="header-section-right">
+            <ul class="header-ul">
+                <li class="phone">123456789</li>
+                <li class="lang">
+                    Language
+                    <ul class="drop-menu lang-drop">
+                        <li class="lang-en befored">English</li>
+                        <li class="lang-ab befored">Arabic</li>
+                    </ul>
                 </li>
-                <li>
-                   USD 
-                </li>
-                <li>
-                    ENGLISH
-                </li>
-                <li>
-                    Wishlist
-                </li>
-                <li>
-                    Compare (0)
+                <li class="dollar">Currency
+                    <ul class="drop-menu currency">
+                        <li class="euro befored">Euro</li>
+                        <li class="sterling befored">Pound sterling</li>
+                        <li class="us-dollar befored">US Dolar</li>
+                    </ul>
                 </li>
             </ul>
         </div>
     </section>
-    <!--Upper-Top Head Section End-->
-    <!--Upper-Middle Head Section Start-->
-    <section class="navbar-middle">
-        <div class="navbar-container-middle">
-            <div class="navbar-container-middle-left">
-                <a href="">
-                    <img src="image/Screenshot_3.png" alt="">
-                </a>
-                <button>
-                    <span>Search Our Product</span>
-                    <span>All Collection</span>
-                    <i></i>
-                    <span>Search</span>
-                </button>
-            </div>
-            <div class="navbar-container-middle-right">
-                <i>#</i>
-                <span>Best Offer !</span>
-                <i>#</i>
-            </div>    
-         </div>
+    <section class="middle-section">
+        <div class="middle-section-left">
+            <a href="https://demo.templatetrip.com/Opencart/OPC06/OPC170/OPC09/image/catalog/logo.png">
+                <img src="image/logo.png" alt="">
+            </a>
+        </div>
+        <div class="middle-section-middle">
+            <input class="search" type="text" placeholder="search">
+            <select class="search-list">
+                <option selected="">Categories</option>
+            </select>
+            <input class="search-button" type="submit">
+        </div>
+        <div class="middle-section-right">
+            <span>Best Offers!</span>
+        </div>
     </section>
-    <!--Upper-Middle Head Section End -->
+    <section class="footer-section">
+        <div class="footer-section-left">
+            <div class="cat-btn">
+                <button>Categories</button>
+                <ul class="cat-menu">
+                    <li>literature</li>
+                    <li>Piston</li>
+                    <li>Grille</li>
+                    <li>Services</li>
+                    <li>Clutch plates</li>
+                    <li>Tyres</li>
+                    <li>Car electronics</li>
+                    <li>Blower</li>
+                    <li>Spoiler</li>
+                    <li>Bonnet</li>
+                    <li>Sinnet</li>
+                    <li>Engine</li>
+                    <li>More</li>
+                </ul>
+            <!-- **************************
+                burada categories menusunu yazirsan
+                display none display bloknan isleyir
+                heleki hovernen ver yoxla
+                duz isleyende jsye kecirderik
+                ***************************--->
+            </div>
+        </div>
+        <div class="footer-section-middle">
+            <ul class="footer-ul">
+                <li>Home</li>
+                <li>Brands</li>
+                <li>Gift Certificates</li>
+                <li>More</li>
+            </ul>
+        </div>
+        <div class="footer-section-right">
+            <span>Sign in</span>
+            <span>Checkout</span>
+        </div>
+    </section>
+    </header>
+<!-- Header End -->
 
+<!-- Main Aside Start -->
+<main>
+    <aside class="column-left">
+        <!-- reklam baneri a img -->
+        <div class="carousel-product-list">
+            <div class="box-head">
+                <h3>Latest</h3>
+            </div>
+            <div class="product-item">
+                <div class="pic-item">
+                    <a href="">
+                        <img src="/image/tire.jpg" alt="">
+                    </a>
+                </div>
+                <div class="info-item">
+                    <p>For Sale</p>
+                    <p>Out of Stock</p>
+                    <p>$ 100</p>
+                </div>
+            </div>
+             <div class="product-item">
+                <div class="pic-item">
+                    <a href="">
+                        <img src="/image/tire.jpg" alt="">
+                    </a>
+                </div>
+                <div class="info-item">
+                    <p>For Sale</p>
+                    <p>Add to chart</p>
+                    <p>$ 100</p>
+                </div>
+             </div>
+            <div class="product-item">
+                <div class="pic-item">
+                    <a href="">
+                        <img src="/image/tire.jpg" alt="">
+                    </a>
+                 </div>
+                 <div class="info-item">
+                     <p>For Sale</p>
+                     <p>Add to chart</p>
+                     <p>$ 100</p>
+                 </div>
+            </div>
+            <div class="product-item">
+                <div class="pic-item">
+                    <a href="">
+                        <img src="/image/tire.jpg" alt="">
+                    </a>
+                </div>
+                <div class="inf0-item">
+                    <p>For Sale</p>
+                    <p>Add to chart</p>
+                    <p>$ 100</p>
+                </div>
+            </div>
+            <div class="product-item">
+               <div class="pic-item">
+                    <a href="">
+                        <img src="/image/tire.jpg" alt="">
+                    </a>
+               </div>
+               <div class="info-item">
+                   <p>For Sale</p>
+                   <p>Out of Stock</p>
+                   <p>$ 100</p>
+               </div> 
+            </div>
+        </div>
+
+        <div class="carousel-product-list">
+            <div class="box-head">
+                <h3>Testimonials</h3>
+            </div>
+            <div class="personal-card">
+                <img class="personal-card-img" src="/image/user2.jpg" alt="">
+                <p class="personal-card-head">Name</p>
+                <p class="personal-card-info">Info text</p>
+            </div>
+        </div>
+    </aside>
+    <!-- Article sector -->
+        <!-- Sections in article for logical content -->
+    <!-- div clear: both xassesi ile blok yadaki maine bu stili ver -->
+</main>
+    <!-- Footer -->
+        <!-- Sections in footer -->
 </body>
 </html>
