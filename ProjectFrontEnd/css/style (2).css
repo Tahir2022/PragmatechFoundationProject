@@ -90,6 +90,13 @@ header{
     display: block;
 }
 
+.add-banner img{
+    /* border: 1px solid black; */
+    width: 250px;
+    margin-left: 30px;
+    /* object-fit: cover; */
+}
+
 .middle-section{
     height: 85px;
     display: flex;
@@ -173,6 +180,7 @@ input.search {
 .column-left{
     float: left; /* sola yapisdirmaq ucun */ 
     width: 20%;  /* enniliyi 100den 20ye saliriq */
+    margin-left: 20px;
 }
 
 .carousel-product-list{
@@ -240,4 +248,16 @@ input.search {
     border-bottom: 1px solid black;
     padding: 5px;
     
+}
+
+.carousel-product-list{
+    margin-top: 15%;
+}
+
+/* Article Start */
+
+.slide-details{
+    border: 1px solid red;
+    margin: auto;
+    margin-left: -50px;
 }
