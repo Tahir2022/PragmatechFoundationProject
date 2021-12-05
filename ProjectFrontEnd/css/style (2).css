@@ -256,8 +256,19 @@ input.search {
 
 /* Article Start */
 
+article{
+  float: left;
+  margin: auto;
+  width: 500px;
+}
+
 .slide-details{
     border: 1px solid red;
+    width: 100%;
+    height: auto;
     margin: auto;
-    margin-left: -50px;
+}
+
+.slide-details img{
+    object-fit: cover;
 }
