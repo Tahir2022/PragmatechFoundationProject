@@ -37,3 +37,24 @@
 - HTML5 dili digərlərinə nəzərən daha çox mobil-friendly olmuşdur.
 
 
+
+**Javascript haqqında ilkin anlayışlar**
+
+*Javascript* - proqramlaşdırma dilidir. Ona script dil də deyirlər.
+İstifadə zamanı comlile a ehtiyacı yoxdur. Brauzerlərlə birgə işləyir.
+- Javascript proqramlaşdırma dilini *Java* ilə qarışdırmaq olmaz.
+- 1995-ci ildə yaradılıb. İlk adı Moko olmuşdur. Javascript adlandırlımasına səbəb adının geniş  istifadə olunan Java proqramlaşdırma dilinə uyğunlaşdırılaraq popularlaşdırılmasıdır. Etma şirkəti tərəfindən yenilənərək təkmilləşdirilir. 
+- *Javascript* düşünüldüyündən daha artıq çoxşaxəlidir. Beləki, ilkin olaraq sadə işlər - _karusellər, qalireyalar,_ eləcə də, buttonlara müxtəlif məzmun və effektlər verməkdə görülsə də, dili dərindən mənimsədikdən sonra *oyunlar, 2D-3D animasiyalı qrafiklər, habelə məlumat bankına əsaslanan apps və bir çox şeyləri onun köməyilə qurmaq olar.* 
+
+
+**Javascriptin Htmlə əlaqələndirilməsi**
+
+Bunun üçün iki üsul var:
+
+1. Html faylında </body> teqindən əvvəldə <script></script> teqi arasında Javascript kodlarını yazmaq;
+2. Əgər .js sonluğu ilə bitən ayrıca JS faylı yaradılıbsa, <script></script> teqi yazılaraq başlanğıc teqin içərisində atributlar verilərilərək fayllar ələqələndirilir.*Məsələn:*
+ 
+ <script type="text/Javascript" language="Javascript" scr="app.js"></script> kimi yazılır.
+
+
+
