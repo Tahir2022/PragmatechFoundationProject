@@ -35,10 +35,11 @@ for(let a=0;a<1000;a++){
 for(let a=1; a<1000; a+=2){
     console.log(a)
 }
-*/
+
 
 for(let a=1;a<1000;a++){
    if(a%3==0){
        console.log(a)
    }
 }
+*/
