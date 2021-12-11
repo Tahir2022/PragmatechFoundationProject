@@ -1,3 +1,5 @@
+// sade login yaradilmasi
+
 username = prompt('Adinizi daxil edin: ')
 password = prompt('Kodunuzu daxil edin:')
 
