@@ -85,3 +85,25 @@ if (year%4 == 0 && year%100!= 0 //&& year%400 == 0) {
     console.log(`[${year}] - entered year is COMMON YEAR`)
 }
 */
+
+/*function addnum (){
+    num = 8
+    console.log(num)
+}
+
+let num = 5
+console.log(num)//5
+addnum()//8
+console.log(num)//8
+*/
+
+/*let a = 5
+function nums (){
+    let a = 2
+    console.log(a)
+}
+
+console.log(a)//5
+nums()//2
+console.log(a)//5
+*/
