@@ -16,3 +16,16 @@ console.log(squareNum(2))
 }    
 upperStr()
 */
+
+/*function checkType(a) {
+    if (typeof a == 'string'){
+        
+    }
+}
+checkType('salam')*/
+
+function att (a,b){
+    return a*b
+}
+
+console.log(att(5,6))
