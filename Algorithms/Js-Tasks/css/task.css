@@ -1,0 +1,83 @@
+/** {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+    margin: 0 5rem 0 13rem ;
+    padding: 0 9rem;
+    display: flex;
+    align-content: center;
+    line-height: 1.7;
+    font: 500, 13/18px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+ul li{
+    list-style: disc;
+}
+
+*/
+.btns {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.btns button {
+    border: 1px solid black;
+    background: lightblue;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: all .3s ease;
+    padding: 10px 20px;
+}
+
+.btns button:hover {
+    background: black;
+    color: lightblue;
+    border: 1px solid lightblue;
+}
+
+.box {
+    padding: 15px 30px;
+    background: red;
+    transition: all .3s ease;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+}
+
+.card {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 800px;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    margin: 20px 0px;
+    font-size: 1.6em;
+}
+
+.card ul {
+    list-style-type: square;
+    padding-left: 30px;
+} 
