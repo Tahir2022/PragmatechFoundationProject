@@ -57,6 +57,6 @@ function addBorder(){
 //Emr 08 - Şəkli Bu şəkil ilə əvəz edin.
 
 function changeImg(){
-    document.querySelector('img').setAttribute('style', 'images/book.jpeg')
+    document.querySelector('img').setAttribute('src', 'images/book.jpeg')
 
 }

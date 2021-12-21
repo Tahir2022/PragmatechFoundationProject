@@ -1,0 +1,41 @@
+body{
+    margin: 0px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    position: relative;
+}
+
+.scHand{
+    width: 180px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left: 47px;
+    transform: rotate(45deg);
+    transform-origin: right top;
+}
+
+.mnHand{
+    width: 180px;
+    height: 2px;
+    background-color: green;
+     position: absolute; 
+    top: 220px;
+    left: 47px;
+}
+
+.hrHand{
+    width: 180px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 220px;
+    left: 47px;
+}
+
