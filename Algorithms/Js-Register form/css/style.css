@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;   
+    padding: 10px; 
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+}
+
+.container .title{
+    font-size: 1.5em;
+    padding-left: 1.1rem;
+}
+
+.container form .user-details{
+    display: flex;
+    flex-wrap:wrap;
+ }
+
+form .user-details .input-box{
+    width: calc(100% /2-20px);
+    margin: 10px;
+    padding:10px
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.gender-details{
+    margin:0rem 1rem .8rem;
+}
+
+.input-box button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    margin: .9rem;
+}
+
+.submit input{
+    width: calc(100%/4);
+    margin: 1rem;
+    background-color: rgb(14, 117, 207);
+    color: white;
+}
+
+
