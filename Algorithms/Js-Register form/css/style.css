@@ -19,6 +19,7 @@ body{
     width: 100%;
     background-color: white;
     padding: 25px 30px;
+    border-radius: 10px;
 }
 
 .container .title{
