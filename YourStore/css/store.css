@@ -174,3 +174,20 @@
   .for-sale img{
       border-bottom: 1px dashed red;
   }
+
+
+#viewmore{
+    width: 12rem;
+    background-color:red;
+    color: white;
+    padding: 1rem;
+    margin: 10rem;
+    cursor: pointer;
+}
+
+/* Youtube video */
+.video-part iframe{
+    border: 1px solid yellow;
+    margin-right: 2rem;
+}
+
