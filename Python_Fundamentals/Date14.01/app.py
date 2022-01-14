@@ -70,23 +70,3 @@ for i in new_txt:
 # for i in my_list:
 #     if (i % 2!=0):
 #         print('Odds are: ', i)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
