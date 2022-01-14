@@ -53,27 +53,43 @@
 
 
 
-from os import name
-
+from datetime import date
 
 def login ():
-    name = input('Pls add your name: ')
-    if 3 < len(name) < 11:
-        surname = input('Pls add your surname: ')
-        if 5 < len(surname) < 15:
-            year = input('')
+    todays_date = date.today()
+    email = '@gmail.com'
+    divide = email.split('@')
+    name = input('Please add your name: ')
+    if (len(name) > 3) and (len(name) < 11):
+        surname = input('Please add your surname: ')
+        if (len(surname) > 5) and (len(surname) < 15):
+            year = input('Please add your birth year: ')
+            if len(year) == 4:
+                old = int(todays_date.year - int(year))
+                print('You are ', old, 'years old')
+                mail = input('Add your mail adress: ')
+                if (len(mail) > 10) and (len(mail) < 22) and email in mail and divide[1] == 'gmail.com':
+                    password = input('Define any password: ')
+                    if (len(password) > 6) and (len(password) < 13):
+                        submit_password = input('Submit your password: ')
+                        if password == submit_password:
+                            print('Registration completed successfully!')
+                            check = input('Wanna look at infos? ')
+                            if check == 'yes':
+                                print(f' Name: {name}\n Surname: {surname}\n Year: {year}\n Mail address: {mail}')
+                            elif check == 'no':
+                                print(f'{name} {surname}, Good luck!')
+                        else:
+                            print('Please try again')
+                    else:
+                        print('Please add correct password')
+                else:
+                    print('Your mail addres is not correct')
+            else:
+                print('ERROR')
+        else:
+            print('Please type your surname correct')
+    else:
+        print('Please type your name correct')  
 
-    
-  
-
-
-
-
-
-
-
-
-
-
-
-
+login()
