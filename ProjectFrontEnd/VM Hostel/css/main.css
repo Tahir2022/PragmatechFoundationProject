@@ -170,15 +170,135 @@ section.page1 {
 
 /* page3 start */
 
-.service-items{
+.page3{
+  width: 89%;
+  height: 100vh;
+  margin:-7% auto;
+}
+
+
+.services .service-items{
   display: flex;
-  margin:0;
-  /* justify-items: center; */
+  margin: 0 400px;
 }
 
 .service-items img{
   width: 50%;
-  height: 80px;
-  margin:auto;
-  justify-content: space-between;  
+  height: 90px;  
+  padding: 5px;
 }
+
+.reserve{
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+
+.reserve-info{
+  margin-top: 4%;
+  font-size: 20px;
+}
+
+.room-types{
+  display: flex;
+  justify-content:space-between;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color:#008000;
+  background-color: #fff;
+}
+
+.room-types h2{
+  text-align: center;
+  color: #ff0000;
+  font-size:  30px;
+  padding: 5% ;
+}
+
+.room-types ul{
+  list-style-type: none;
+}
+
+.room-items{
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background-color: #808080;
+  margin-top: .9%;
+}
+.room-items ul{
+  list-style-type: none;
+}
+
+.room-pics{
+  width: 700px;
+  margin: 3.5% 10% 0 10%;
+}
+
+.big-image{
+  height: 370px;
+  overflow: hidden;
+}
+
+.big-image img{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.small-images{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  margin-top:-40px;
+}
+
+.small-image{
+  height: 150px;
+  cursor: pointer;
+}
+
+.small-image img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* page3 end */
+
+/* page4 start */
+
+.page4{
+  width: 89%;
+  height: 100vh;
+  margin: 5% auto;
+  border: 1px solid red;
+}
+
+.booking-head{
+  width: 50%;
+  height: 100px;
+  /* border: 1px solid green; */
+  display: flex;
+  text-align: center;
+  margin: 0 400px;
+}
+
+.booking-head img{
+  height: auto;
+  align-items: center;
+  width: auto;
+  /* border: 1px solid yellow; */
+  /* object-fit: cover; */
+  /* padding: 1rem; */
+  margin:1rem;
+}
+
+.booking-review{
+  border: 1px solid green;
+  width: 98.4%;
+  /* height: auto; */
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
