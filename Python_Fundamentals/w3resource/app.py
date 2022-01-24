@@ -72,3 +72,34 @@
 
 # exam_st_date = (11, 12, 2014)
 # print('The examination will start from: %i / %i / %i '%exam_st_date)
+
+#10. Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn. 
+# Sample value of n is 5 
+# Expected Result : 615
+
+# num = input('add number: ')
+# a = int('%s' % num)
+# b = int('%s%s' %(num,num))
+# c = int('%s%s%s' %(num,num,num))
+# print(a + b + c)
+
+
+#11. Write a Python program to print the documents (syntax, description etc.) of Python built-in function(s). 
+# Sample function : abs()
+# Expected Result : 
+# abs(number) -> number
+# Return the absolute value of the argument.
+
+# print(abs.__doc__)
+# print(map.__doc__)
+# print(sorted.__doc__)
+
+
+#12. Write a Python program to print the calendar of a given month and year.
+#Note : Use 'calendar' module. 
+
+# import calendar
+
+# year = 2022
+# month = 2
+# print(calendar.month(year,month))
