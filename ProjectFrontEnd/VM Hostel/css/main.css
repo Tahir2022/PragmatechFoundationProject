@@ -272,7 +272,7 @@ section.page1 {
   width: 89%;
   height: 100vh;
   margin: 5% auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .booking-head{
@@ -294,11 +294,96 @@ section.page1 {
   margin:1rem;
 }
 
-.booking-review{
-  border: 1px solid green;
-  width: 98.4%;
-  /* height: auto; */
+.reviews-container{
+  width: 85%;
+  height: 90%;
+  margin: auto;
+  /* padding: 10%; */
+  /* border: 1px solid green; */
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: 50% 50%;
 }
 
+.reviews-left{
+  /* border: 1px solid blue; */
+  margin-right: 2rem;
+}
+
+.reviews-right{
+  /* border: 1px solid yellow; */
+  margin-left: 2rem;
+}
+
+.review-item{
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 220px;
+}
+
+.review-item img{
+  /* object-fit: cover; */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+/* page4 end */
+
+/* page5 start */
+
+.page5{
+  width: 100%;
+  height: 100vh;
+  margin-top: 5%;
+  display:table;
+}
+
+.rate{
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  /* margin: 0 10rem; */
+}
+
+.rt-points{
+  /* width: ; */
+  display: inline-flex;
+  margin: 0 1rem;
+}
+
+.rt-points img{
+  width: 100%;
+  height: 150px;
+}
+
+.docs{
+  display: inline-flex;
+  text-align: center;
+  height: 80%;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.certificate{
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.certificate img{
+  width: 100%;
+  height: auto;
+}
+
+.certificate video{
+  width: 100%;
+  margin: 50% 0;
+}
+
+/* page5 end */
+
+/* page6 start */
+
+.page6{
+  border: 1px solid red;
+}
