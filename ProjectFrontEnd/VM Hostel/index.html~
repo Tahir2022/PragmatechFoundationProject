@@ -3,11 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <title>VM Hostel</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css" />
-lin
 </head>
 <body>
 <!-- page 1 start -->
@@ -221,103 +217,26 @@ lin
       <div class="nizami">
         <div class="monument-pics">
           <div class="big-image">
-            <img src="image/Nizami10.JPG" alt="">
+            <img src="" alt="">
           </div>
           <div class="small-images">
             <div class="small-image" >
-                <img src="image/627px-Nizami_məqbərəsi_yanında_Fitnə_heykəli.jpg" alt="">
+                <img src="" alt="">
             </div>
             <div class="small-image" >
-                <img src="image/788px-Nizami_məqbərəsi_yanında_Fərhad_heykəli.jpg" alt="">
+                <img src="" alt="">
             </div>
             <div class="small-image" >
-                <img src="image/800px-Nizami_məqbərəsi_yanında_Adil_Nuşirəvan_ilə_vəzirin_heykəli.jpg" alt="">
+                <img src="" alt="">
             </div>
         </div>
-      </div>
-      <div class="monument-info">
-        <h2>Nizami Gencevi</h2>
-        <p>Dahi Azərbaycan şairi Nizami Gəncəvinin məqbərəsi anadan olduğu Gəncə şəhərinin yaxınlığında yerləşir. Məqbərənin hündürlüyü 22,4 metrdir. En kəsiyi milli ornamentə uyğun olaraq 8 guşəlidir. Abidənin daxilində, onun lap aşağı hissəsində şairin sərdabası yerləşir. İlk sərdabənin tikintisi 13-14-cü əsrlərə aid edilir. Seyyid Əzim Şirvani 1879-cu ildə məhz bu türbəni ziyarət etmişdi. Türbə Mirzə Adıgözəl bəy Qarabaği və Əsgərağa Goraninin təşəbbüsü ilə təmir edilib. Daha sonra General Yadigarzadə tərəfindən bərpa etdirilib. 
-          1947-ci ildə şairin dağılmış qədim məzarı üstündə Nizami məqbərəsi - şairi anadan olmasının 750-ci ildönümünə həsr edilmiş abidə ucaldılıb. Məqbərə 1990-1991-ci illərdə yenidən qurulub. 
-          Məqbərənin yaxınlığında ölməz şairin yaratdığı əsərləri tərənnüm edən tuncdan abidə yerləşir.
-          </p>
+        <div class="monument-info">
+          <h2>Nizami Gencevi</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta nesciunt numquam a sunt perspiciatis veniam qui ea magni modi iste enim soluta, reiciendis amet error quam iure laboriosam quo? Ipsa.</p>
+        </div>
       </div>
     </div>
   </section>
   <!-- page6 end -->
-
-  <!-- page7 -->
-  <section class="page7">
-    <div class="payment">
-      <div class="address">
-        <div class="address-info">
-          <p>Ünvan:</p>
-          <p>Gəncə ş. Şotarustaveli küç.42</p>
-          <p>Mərkəzlə məsafə 800m</p>
-          <p>Xan bağı məsafə 500m</p>
-          <p>Ay-Ulduz restoranı ilə məsafə 300m</p>
-        </div>
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3025.791258901267!2d46.347640093971336!3d40.67856806103935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd09f3a4972f76bae!2sVM%20Hostel!5e0!3m2!1sde!2s!4v1643489667712!5m2!1sde!2s" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </div>
-      <div class="pay-info">
-        <div class="pay-manner">
-          <p>Ödəniş:</p>
-          <p>Card to card etməklə və ya istənilən ödəmə terminalında</p>
-          <p>Bank Xidmətləri => Azərbaycan Beynəlxalq Bankı (ABB)</p>
-        </div>
-        <div class="pay-vizual">
-          <div>
-            <img src="" alt="">
-          </div>
-          <div>
-            <img src="" alt="">
-          </div>
-        </div>
-        <div class="card-num">
-          <p>Kart nömrəsi üzrə seçin və aşağıdakı kart nömrəsini daxil edin:</p>
-          <p>4127 2093 0989 6634</p>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="foot-nav">
-        <div class="about">
-          <a href="">Haqqında</a>
-          <a href="">Xidmətlər</a>
-          <a href="">Rəylər</a>
-        </div>
-        <div class="contact">
-          <a href="">Mükafatlar</a>
-          <a href="">Gəncə</a>
-          <a href="">Əlaqə</a>
-        </div>
-      </div>
-      <div class="contact-items">
-        <p>Hostel 24 saat işləyir</p>
-        <div class="item-left">
-          <p>Əlaqə</p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-        <div class="item-right">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </section>
 </body>
 </html>
