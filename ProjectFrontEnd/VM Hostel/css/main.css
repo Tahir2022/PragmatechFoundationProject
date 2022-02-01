@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500;1,600&family=Josefin+Sans:ital,wght@0,400;1,300;1,400&family=Roboto+Slab:wght@300;400;600&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -12,16 +13,14 @@ body {
 }
 
 /* section start */
-section {
+.page1 {
   width: 100%;
   height: 100vh;
-}
-
-/* page1 start */
-.page1 {
   display: flex;
   flex-direction: row;
 }
+
+/* page1 start */
 .logo{
   width: 13%;
   margin-top: 1%;
@@ -101,6 +100,7 @@ section.page1 {
 
 .welcome-div {
   display: flex;
+  
 }
 
 .welcome-txt {
@@ -108,6 +108,7 @@ section.page1 {
   color: white;
   font-size:65px;
   font-weight: 600;
+  font-family:  'Andada Pro', serif;
 }
 
 /* @media(min-width:500px){
@@ -442,15 +443,12 @@ section.page1 {
 /* page7 start */
 .page7{
   width: 100%;
-  height: 100vh;
-  /* margin-top: 3%; */
-  border: 1px solid red;
+  /* height: 100vh; */
   line-height: 1.8rem;
 }
 
 .payment{
-  border: 1px solid green;
-  margin: 0 auto;
+  margin:0 5%;
   display: grid;
   grid-template-columns: 50% 50%;
   font-size: 20px;
@@ -471,4 +469,76 @@ section.page1 {
 
 footer{
   width: 100%;
+  background-color: #282828;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.foot-nav{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-around;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  justify-content: center;
+}
+.foot-nav a{
+  color:white;
+  text-decoration: none;
+  padding: 10% 0;
+}
+.item-right li{
+  list-style-type: none;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+  justify-content: center;
+}
+.contact-items{
+  text-align: center;
+  color:white;
+}
+.contact-items li{
+  list-style-type:none ;
+}
+.contact-items p{
+  font-size: 24px;
+  margin-top: 8%;
+}
+.item-left{
+  display: flex;
+  flex-direction: row;
+}
+.item-left i:nth-child(1){
+  font-size: 28px;
+  color:green;
+}
+.item-left i:nth-child(2){
+  font-size: 28px;
+  color:green;
+}
+.item-left i:nth-child(3){
+  font-size: 28px;
+  color:hotpink;
+}
+.item-left ul{
+  display: flex;
+  padding-left: 5%;
+  white-space: nowrap;
+}
+.item-left ul li span{
+  font-size: 20px;
+  font-weight: 600;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  padding-top: 8%;
 }
