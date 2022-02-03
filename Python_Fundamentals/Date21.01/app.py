@@ -59,3 +59,152 @@
 # # admin1 = User('Elon','Musk',51)
 # # admin1.describe_user()
 # # admin1.greet_user()
+
+
+# Tələblər
+# addToTuple metodunun vəzifəsi tpl strukturunun içinə yeni bir element əlavə edilə bilməsini təmin etməkdir.Metod icra olunduğu zaman nəticə olaraq yeni element əlavə edilmiş formada ekranda çap olunmalıdır.
+
+
+# tpl=(23,45,12,67)
+
+# def addToTuple(element):
+#     l = list(tpl)
+#     l.append(element)
+#     t = tuple(l)
+#     print(t)
+    
+# addToTuple(535)
+
+# import os
+# from os import path
+
+# def main():
+#     if path.exists('tural.txt'):
+#         src = path.realpath('tural.txt')
+#     os.rename('tural.txt', 'sahib.txt')
+
+# main()
+
+# import os
+# from os import rename
+# path = input()
+# old_name = input()
+# new_name = input()
+# old_name = path + '/' + old_name
+# new_name = path + '/' + new_name
+# rename(old_name, new_name)
+
+
+# from re import I
+# from countries import olkeler
+
+# def FindCity(cityname):
+#   # seher adi daxil edildiyi zaman o seherin aid olduğu ölkəni göstərsin
+#   for i in olkeler:
+#       if cityname in olkeler.get(i):
+#           print(i)
+
+      
+# def FindCountry(countryname):
+#   # olke adi daxil edildiyi zaman o olkeye aid olan seherlerin adlarini ekranda gostersin
+#   print("\n".join(olkeler.get(countryname)))
+
+
+# def CityCountMax():
+#   # ek cox sehere sahib olan olkeni gostersin
+#     say=0
+#     for i in olkeler:
+#         if len(olkeler.get(i))>say:
+#             more_city=i
+#             say=len(olkeler.get(i))
+#     print(more_city)
+
+
+# def CountAllCities():
+#   # butun seherlerin sayini ekranda gostersin
+#     say=0
+#     for i in olkeler:
+#         say+=len(olkeler.get(i))
+#     print(say)
+
+# # FindCity("Shar")
+# # FindCountry("Afghanistan")
+# CityCountMax()
+# CountAllCities()
+
+'''
+1.	Qeydiyyatdan keçmək üçün [1] yazın
+- İstifadəçi adınız :
+- Parolunuz :
+2.	Sistemə daxil olmaq üçün [2] yazın
+3.	Ana menyuya qayıtmaq üçün [3] yazın
+4.	Sistemdən çıxmaq üçün [4] yazın
+- Sərtlər
+Class və obyektlərdən istifadə olunaraq yazılmalıdır.
+- İstifadəçi daxil olduğu zaman daha öncədən qeydiyyatdan keçib keçmədiyini yoxlamalısınız.
+Parol daxil edildikdən sonra parol şirfrələnmiş şəkildə sistemə düşməlidir.Bunun üçün python encript araşdırması edə bilərsiniz. Ana menuye qayitmaq yuxarıdakı menyunun görünməsi, proqramdan çıx isə ümümən proqramın dayanması mənasına gəlir 
+'''
+
+
+# class User:
+#   __login = ''
+#   __passwd = ''
+#   __logged = False
+  
+#   def _init_(self, login, passwd):
+#     self.__login = login
+#     self.__passwd = hash(passwd)
+  
+#   def SignUp(self):
+#     # save login and password to database
+#     print(self.__login)
+#     print(self.__passwd)
+  
+#   def LogIn(self):
+#     # get login and password from database
+#     login = 'root'
+#     passwd = hash('root')
+#     if self._login == login and self._passwd == passwd:
+#       self.__logged = True
+#       print('User is logged')
+  
+#   def LogOut(self):
+#     self.__login = ''
+#     self.__passwd = ''
+#     self.__logged = False
+#     print('User is logout')
+  
+#   def isLogged(self):
+#     return self.__logged
+
+# menu = """1. Qeydiyyatdan keçmək üçün [1] yazın
+# 2. Sistemə daxil olmaq üçün [2] yazın
+# 3. Ana menyuya qayıtmaq üçün [3] yazın
+# 4. Sistemdən çıxmaq üçün [4] yazın
+# 5. Proqramdan çıxmaq üçün [5] yazın
+# """
+# user = None
+
+# while(True):
+#   print(menu)
+#   k = int(input())
+  
+#   if k == 1 or k == 2:
+#     print('- İstifadəçi adınız: ', end='')
+#     login = input()
+#     print('- Parolunuz: ', end='')
+#     passwd = hash(input())
+#     user = User(login, passwd)
+  
+#   if k == 1:
+#     if user: user.SignUp()
+#   elif k == 2:
+#     if user and not user.isLogged(): user.LogIn()
+#   elif k == 3:
+#     continue
+#   elif k == 4:
+#     if user: user.LogOut()
+#   elif k == 5:
+#     break
+#   else: print('Naməlum seçim')
+#   print()
