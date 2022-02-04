@@ -61,27 +61,6 @@ body {
   font-size: 30px;
   font-weight: 500;
 }
-/* 
-section.page1 {
-  color: #fff;
-}
-
-.slider {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-/* .slider img {
-  height: 100%;
-  width: auto;
-  display: block;
-} */
-
-/* .header, .nav-div {
-  height: 33%;
-} */
 
 .main-nav li {
   display: inline-block;
@@ -119,7 +98,6 @@ section.page1 {
 .languages{
   display: flex;
   width: 13%;
-  /* flex-direction: row; */
   justify-content: center;
 }
 
@@ -166,11 +144,6 @@ section.page1 {
 .priority h2{
   padding: 1rem 0 0 3.5rem;
 }
-
-/* .time span{
-  border: 1px solid black;
-  margin-left: 500px;
-} */
 
 /* page2 end */
 
@@ -282,22 +255,18 @@ section.page1 {
   width: 100%;
   height: 100vh;
   margin: 5% auto;
-  /* border: 1px solid red; */
 }
 
 .booking-head{
   width: 50%;
   height: 100px;
-  /* border: 1px solid green; */
   display: flex;
   text-align: center;
   margin: 0 400px;
 }
 
 .booking-head img{
-/*  height: auto;*/
   align-items: center;
-/*  width: auto;*/
   margin:1rem;
 }
 
@@ -305,30 +274,24 @@ section.page1 {
   width: 85%;
   height: 90%;
   margin: auto;
-  /* padding: 10%; */
-  /* border: 1px solid green; */
   display: grid;
   grid-template-columns: 50% 50%;
 }
 
 .reviews-left{
-  /* border: 1px solid blue; */
   margin-right: 2rem;
 }
 
 .reviews-right{
-  /* border: 1px solid yellow; */
   margin-left: 2rem;
 }
 
 .review-item{
-  /* border: 1px solid red; */
   width: 100%;
   height: 220px;
 }
 
 .review-item img{
-  /* object-fit: cover; */
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -349,12 +312,9 @@ section.page1 {
 .rate{
   width: 100%;
   height: 20%;
-  text-align: center;
-  /* margin: 0 10rem; */
 }
 
 .rt-points{
-  /* width: ; */
   display: inline-flex;
   margin: 0 1rem;
 }
@@ -443,7 +403,6 @@ section.page1 {
 /* page7 start */
 .page7{
   width: 100%;
-  /* height: 100vh; */
   line-height: 1.8rem;
 }
 
