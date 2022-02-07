@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}    
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    /* background: url('../image/hotel1.jpg'); */
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+}
+
+
+.navbar{
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font: 16px;
+    color:#8888;
+}
+
+nav ul li a:hover{
+    color: blue;
+    font-size: 18px;
+}
+
+
+.slide-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.slider{
+    width:800px;
+    /* height: 500px; */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slide input{
+    display: none;
+}
+
+.st{
+    width: 20%;
+    transition: 2s;
+}
+
+.st img{
+    width:800px;
+    height: 500px;
+}
+
+.nav-m{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+}
+
+.m-btn{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+
+.m-btn:hover{
+    background: #23e3c2;
+}
+
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div{
+    border: 2px solid #23e3c2;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~ .nav-auto .a-b1{
+    background: #23e3c2;
+}
+
+#radio2:checked ~ .nav-auto .a-b2{
+    background: #23e3c2;
+}
+
+#radio3:checked ~ .nav-auto .a-b3{
+    background: #23e3c2;
+}
+
+#radio4:checked ~ .nav-auto .a-b4{
+    background: #23e3c2;
+}
+/* 
+#radio1:checked .container{
+    background: url('foto1');
+}
+
+#radio2:checked .container{
+    background: url('foto2');
+} */
