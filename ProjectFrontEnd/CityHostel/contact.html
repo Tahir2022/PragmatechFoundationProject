@@ -44,9 +44,39 @@
             <!-- contact details -->
 
         <div class="get-contact">
-            <div class="contact-txt"></div>
+            <div class="contact-txt">
+                <div class="contact-box">
+                    <div class="box-icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="box-txt">
+                        <h3>Address</h3>
+                        <p>gence</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <div class="box-icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="box-txt">
+                        <h3>Phone</h3>
+                        <p>0558517319</p>
+                    </div>
+                </div>
+
+                <div class="contact-box">
+                    <div class="box-icon"><i class="fa-solid fa-at"></i></div>
+                    <div class="box-txt">
+                        <h3>Email</h3>
+                        <p>tahir@maiu</p>
+                    </div>
+                </div>
+            </div>
             <div class="contact-email">
-                
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h1>Get In Touch</h1>
+                    <input type="text" id="name" placeholder="Enter your name*" required>
+                    <input type="email" id="email" placeholder="Enter your email*" required>
+                    <textarea type="text" id="message" rows="5" placeholder="Enter your message*" required></textarea>
+                    <button type="submit">Send message</button>
+                </form>
             </div>
         </div>
 
@@ -54,9 +84,11 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
 
       <!-- footer -->
-     <!-- <footer>
+     <footer>
         <ul class="social-icon">
             <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
             <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
@@ -69,6 +101,6 @@
             <li><a href="contact.html">CONTACT</a></li>
         </ul>
         <p>2022 All Rights Reserved</p>
-    </footer> -->
+    </footer>
 </body>
 </html>
