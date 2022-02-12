@@ -135,7 +135,7 @@ border-radius: 5px;
 .about-info{
 width: 100%;
 background: #f7f5f2;
-padding: 7%;
+padding: 2%;
 line-height: 2rem;
 cursor: auto;
 }
@@ -143,7 +143,7 @@ cursor: auto;
 .about-info h1{
 font-size: 2rem;
 font-family: 'Sansita Swashed' cursive;
-padding-bottom: 3%;
+margin-bottom: 7%;
 }
 
 .about-info p{
@@ -424,7 +424,7 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     margin-left: 12px;
-    font-size: 16px;
+    font-size: 20px;
     color: #928f88;
     font-size: 300;
 }
@@ -433,6 +433,11 @@ overflow: hidden;
     font-weight: 500;
     color: #535257;
     text-transform: uppercase;
+}
+
+.box-txt p{
+    padding: 10px 0;
+    font-family: 'Oswald One', sans-serif;
 }
 
 
