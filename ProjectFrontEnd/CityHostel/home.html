@@ -25,47 +25,38 @@
                 </nav>
             </div>
         </div>
-        <div class="slide-content">
-            <div class="slider">
-                <div class="slide">
-                    <input type="radio" name="radio-btn" id="radio1">
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-                    <input type="radio" name="radio-btn" id="radio4">
-        
-                <div class="st first">
-                    <img src="/image/1.jpg" alt="">
-                </div>
-        
-                    <div class="st">
-                        <img src="/image/2.jpg" alt="">
-                    </div>
-        
-                    <div class="st">
-                        <img src="/image/5.jpg" alt="">
-                    </div>
-        
-                    <div class="st">
-                        <img src="/image/9.JPG" alt="">
-                    </div>
-        
-                    <div class="nav-auto">
-                        <div class="a-b1"></div>
-                        <div class="a-b2"></div>
-                        <div class="a-b3"></div>
-                        <div class="a-b4"></div>
-                    </div>
-                </div>
-        
-                <div class="nav-m">
-                    <label for="radio1" class="m-btn"></label>
-                    <label for="radio2" class="m-btn"></label>
-                    <label for="radio3" class="m-btn"></label>
-                    <label for="radio4" class="m-btn"></label>
-                </div>
+              
+        <!-- slider -->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="image/Qeydiyyat.JPG" style="width: 100%;">
             </div>
-        </div>     
-        
+
+            <div class="mySlides fade">
+                <img src="image/12.JPG" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="image/5.jpg" style="width: 100%;">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="image/2.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+            <span class="dot" onclick="currentSlides(4)"></span>
+        </div>
+
+
+
         <div class="about">
             <div class="about-img">
                 <img src="image/bg_hello.jpg" alt="">
@@ -150,24 +141,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1799.1364970152677!2d46.3461726052133!3d40.678929313828974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403f51cdb7f2fd67%3A0xd09f3a4972f76bae!2sVM%20Hostel!5e0!3m2!1sde!2s!4v1644350586640!5m2!1sde!2s" width="70%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
-        <!-- Slider -->
-        <script type = "text/Javascript">
-            var counter = 1;
-            setInterval(function(){
-                document.getElementById("radio" + counter).checked = true;
-                counter ++;
-                if (counter > 4) {
-                    counter = 1;
-                }
-            }, 2000);
-            </script>
         
-        <!-- Gallery -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
-
-        <script>
-            lightGallery(document.querySelector('.gallery'));
-        </script>
     </section>
 
     <!-- footer -->
@@ -186,9 +160,28 @@
         </ul>
         <p>2022 All Rights Reserved</p>
     </footer>
+    <script type = "text/Javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById("radio" + counter).checked = true;
+            counter ++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 2000);
+        </script>
+    
+    <!-- Gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery'));
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <a href="city.html" style="position: fixed;display: block;right: 20px; bottom: 20px; width: 50px;height: 50px;background-color: #444349;border-radius: 10px;font-size: 50px;line-height: 50px;text-align: center;color: #ffdc79;text-decoration: none;">^</a>
+    <a href="#" style="position: fixed;display: block;right: 20px; bottom: 20px; width: 50px;height: 50px;background-color: #444349;border-radius: 10px;font-size: 50px;line-height: 50px;text-align: center;color: #ffdc79;text-decoration: none; scroll-behavior: smooth;" >^</a>
+    <script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
 
